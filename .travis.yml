@@ -1,3 +1,6 @@
-language: c
-script: make dep && make test
+language: c 
+install: make dep
+script: make clean test
 compiler: gcc
+os: linux
+sudo: required
